@@ -25,7 +25,7 @@ main:
 	add $t0, $t0, $t1
 	
 	li $v0, 4
-	la $a0, msg1
+	la $a0, msg3
 	syscall
 	
 	li $v0, 1

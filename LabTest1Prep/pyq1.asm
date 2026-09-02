@@ -76,7 +76,7 @@
 			real:
 				lwc1 $f8, negative			#f8=-1
 				mul.s $f8, $f8, $f6		#f8=-b
-				lwc1 $f13, d				#f3=d
+				lwc1 $f13, d				#f13=d
 				sqrt.s $f11, $f13		#f11=rt.d
 				add.s $f10, $f8, $f11	#f10=-b+rt.d
 				lwc1 $f9, two			#f9=2

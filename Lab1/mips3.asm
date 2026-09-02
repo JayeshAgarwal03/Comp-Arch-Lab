@@ -14,6 +14,7 @@ main:
 	
 	add $t0, $v0, $zero
 	
+	# print message on terminal
 	li $v0, 4
 	la $a0, msg2
 	syscall
